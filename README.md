@@ -80,3 +80,11 @@ Nextcloud Client
     nextcloud.sh
 
 This installs the Nextcloud client from a PPA. It works like Dropbox, syncing a local folder with a server.
+
+
+Node JS
+-------
+    node.sh
+    
+Installs the current LTS version NodeJS from the Node repository. Currently this is version 6 and is due to change to version 8 in October 2017.
+
