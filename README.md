@@ -51,6 +51,13 @@ Atom
 This installs the Atom text editor from a PPA.
 
 
+Chrome
+------
+    chrome.sh
+    
+Installs Google Chrome stable from the Google repository.
+
+
 Graphics
 --------
     graphics.sh
@@ -59,6 +66,13 @@ Essential applications for creating and editing graphics. All of these come from
 * Gimp - Photo editor. Includes some useful addons as well.
 * Inkscape - Vector drawing program.
 * Gcolor2 - Color picker.
+
+
+Java
+----
+    java.sh
+    
+Installs Oracle Java 8 from PPA. Also installs the unlimited JCE policies.
 
 
 Nextcloud Client
