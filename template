@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#tested zesty
+
+#setup
+echo "# Setting Up..."
+
+#key
+echo "# Installing Keys..."
+
+#repo
+echo "# Setting up Repo..."
+
+#install
+echo "# Installing Software..."
+
+#post
+echo "# Post Install Steps..."
+
+#clean
+echo "# Cleaning Up..."
+
+
+#done
+echo "# Finished"
+
