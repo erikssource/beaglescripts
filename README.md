@@ -54,8 +54,21 @@ This installs the Atom text editor from a PPA.
 Chrome
 ------
     chrome.sh
-    
+
 Installs Google Chrome stable from the Google repository.
+
+Epson Print
+-----------
+    epson-print.sh
+
+Installs drivers for Epson printers.
+
+
+Flash
+-----
+    flash.sh
+
+Installs Flash plus some DRM suport. Includes a PPA for DRM support.
 
 
 Graphics
@@ -71,7 +84,7 @@ Essential applications for creating and editing graphics. All of these come from
 Java
 ----
     java.sh
-    
+
 Installs Oracle Java 8 from PPA. Also installs the unlimited JCE policies.
 
 
@@ -85,6 +98,12 @@ This installs the Nextcloud client from a PPA. It works like Dropbox, syncing a 
 Node JS
 -------
     node.sh
-    
+
 Installs the current LTS version NodeJS from the Node repository. Currently this is version 6 and is due to change to version 8 in October 2017.
 
+
+Samsung Print
+-------------
+    samsung-print.sh
+
+Installs drivers and support for Samsung printers. May not install the correct driver for older printers. The software comes from an external repository.
