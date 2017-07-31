@@ -112,4 +112,4 @@ Virtual Box
 -----------
     vbox.sh
 
-Installs Oracle Virtual Box from the Virtual Box repository.
+Installs Oracle Virtual Box from the Virtual Box repository. After installing, you'll probably want to visit virtualbox.org and download the current extension pack.
