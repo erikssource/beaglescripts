@@ -51,11 +51,39 @@ Atom
 This installs the Atom text editor from a PPA.
 
 
+Audio
+-----
+    audio.sh
+
+Some basic utilities for working with audio files. From both official repositories and PPA.
+* Audacity - Multi-track audio editor
+* Easytag - MP3 tag editor
+* Soundconverter - Batch audio file converter
+* mp3gain - Utility to adjust gain on mp3 files
+* accgain - Utility to adjust gain on acc files
+* Library files for mp3, flac, and wavpack
+
+
 Chrome
 ------
     chrome.sh
 
 Installs Google Chrome stable from the Google repository.
+
+
+Dev Fonts
+---------
+    dev-fonts.sh
+
+Monospaced fonts useful for terminals and text editors. IBM 3270 terminal fonts, Hack family fonts, Mononoki family fonts.
+
+
+Docker
+------
+    docker.sh
+
+Installs docker-ce from the Docker repository. After running the script you might want to enable running docker as a non-root user. To do say run 'moduser -aG docker <username>' as root or with 'sudo'. You'll need to log out and back in for the change to take effect.
+
 
 Epson Print
 -----------
@@ -123,11 +151,40 @@ Node JS
 Installs the current LTS version NodeJS from the Node repository. Currently this is version 6 and is due to change to version 8 in October 2017.
 
 
+Optical
+-------
+    optical.sh
+
+Installs applications useful for working with optical drives. Installed from official repositories and PPA.
+* Asunder - Utility to rip audio tracks from a CD.
+* MakeMkv - Utility to backup video from DVDs or Blu-Ray discs.
+* K3b - Optical disc burning utility.
+
+
+Restricted
+----------
+    restricted.sh
+
+This just installs 'ubuntu-restricted-extras' from the official repositories. It includes useful, but non-free, fonts, codecs, and such.
+
+
 Samsung Print
 -------------
     samsung-print.sh
 
 Installs drivers and support for Samsung printers. May not install the correct driver for older printers. The software comes from an external repository.
+
+
+Video
+-----
+    video.sh
+
+Installs utilities useful for working with video from official repositories and PPA.
+* VLC - A versatile video player.
+* Handbrake - Video transcoder.
+* Openshot-qt - Non linear video editor.
+* Vokoscreen - Screen recorder.
+
 
 Virtual Box
 -----------
