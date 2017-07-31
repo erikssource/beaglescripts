@@ -107,3 +107,9 @@ Samsung Print
     samsung-print.sh
 
 Installs drivers and support for Samsung printers. May not install the correct driver for older printers. The software comes from an external repository.
+
+Virtual Box
+-----------
+    vbox.sh
+
+Installs Oracle Virtual Box from the Virtual Box repository.
