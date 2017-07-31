@@ -64,11 +64,25 @@ Epson Print
 Installs drivers for Epson printers.
 
 
+Etcher
+------
+    etcher.sh
+
+Installs electron-based application for writing images to USB drives from external repository.
+
+
 Flash
 -----
     flash.sh
 
 Installs Flash plus some DRM suport. Includes a PPA for DRM support.
+
+
+Git
+---
+    git.sh
+
+Installs git version control and the 'gitg' GNOME GUI client from official repositories.
 
 
 Graphics
@@ -86,6 +100,13 @@ Java
     java.sh
 
 Installs Oracle Java 8 from PPA. Also installs the unlimited JCE policies.
+
+
+Lamp
+----
+    lamp.sh
+
+Installs a basic lamp server setup with Apache2, MySQL, and PHP from official repositories. This install is oriented toward a developer workstation rather than a server and some additional utilities like composer and mysql-workbench are installed.
 
 
 Nextcloud Client
