@@ -10,12 +10,12 @@ echo "# Installing Keys..."
 
 #repo
 echo "# Setting up Repo..."
-add-apt-repository -y ppa:webupd8team/atom
+add-apt-repository -y ppa:numix/ppa
 apt-get update
 
 #install
 echo "# Installing Software..."
-apt-get -y install atom
+apt-get -y install numix-gtk-theme numix-icon-theme numix-icon-theme-bevel numix-icon-theme-circle numix-icon-theme-square
 
 #post
 echo "# Post Install Steps..."

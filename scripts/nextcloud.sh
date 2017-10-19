@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#tested zesty
+#tested zesty artful
 
 #setup
 echo "# Setting Up..."

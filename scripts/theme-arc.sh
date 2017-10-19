@@ -10,12 +10,12 @@ echo "# Installing Keys..."
 
 #repo
 echo "# Setting up Repo..."
-add-apt-repository -y ppa:webupd8team/atom
+add-apt-repository -y ppa:noobslab/icons
 apt-get update
 
 #install
 echo "# Installing Software..."
-apt-get -y install atom
+apt-get -y install arc-icons arc-theme
 
 #post
 echo "# Post Install Steps..."

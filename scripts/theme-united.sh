@@ -10,12 +10,12 @@ echo "# Installing Keys..."
 
 #repo
 echo "# Setting up Repo..."
-add-apt-repository -y ppa:webupd8team/atom
+add-apt-repository -y ppa:noobslab/themes
 apt-get update
 
 #install
 echo "# Installing Software..."
-apt-get -y install atom
+apt-get -y install united-gnome-theme
 
 #post
 echo "# Post Install Steps..."
