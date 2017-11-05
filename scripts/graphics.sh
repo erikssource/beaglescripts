@@ -13,7 +13,7 @@ echo "# Setting up Repo..."
 
 #install
 echo "# Installing Software..."
-apt-get -y install gimp gimp-data-extras gimp-gap gimp-plugin-registry inkscape gcolor2
+apt-get -y install gimp gimp-data-extras gimp-gap gimp-plugin-registry inkscape gpick
 
 #post
 echo "# Post Install Steps..."
