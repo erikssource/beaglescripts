@@ -39,9 +39,12 @@ Installs some basic packages. All of these come from the official repositories.
 * HTop - Nice process viewer
 * Packages useful for setting up repositories including curl
 * Build Essential
-* Terminator
-* Fish
-* Synaptic
+* Terminator - Split pane terminal emulator
+* Fish - Advanced shell
+* Synaptic - A more detailed package manager 
+* Hardinfo - Displays hardware information
+* Gnome Tweak - Essential tweak tool for Gnome desktop
+* Breeze cursor theme - A nice cursor theme borrowed from KDE
 
 
 Atom
@@ -120,7 +123,7 @@ Graphics
 Essential applications for creating and editing graphics. All of these come from the official repositories.
 * Gimp - Photo editor. Includes some useful addons as well.
 * Inkscape - Vector drawing program.
-* Gcolor2 - Color picker.
+* Gpick - Color picker.
 
 
 Java
@@ -174,6 +177,35 @@ Samsung Print
 
 Installs drivers and support for Samsung printers. May not install the correct driver for older printers. The software comes from an external repository.
 
+Theme Arc
+---------
+    theme-arc.sh
+
+Installs files necessary for the Arc theme. Use the gnome tweak tool to switch to this theme.
+
+Theme Numix
+-----------
+    theme-numix.sh
+
+Installs files necessary for the Numix theme. Use the gnome tweak tool to switch to this theme.
+
+Theme Obsidian
+--------------
+    theme-obsidian.sh
+
+Installs files necessary for the Obsidian theme. Use the gnome tweak tool to switch to this theme.
+
+Theme Pop
+---------
+    theme-pop.sh 
+
+Installs files necessary for the Pop theme from System76. Use the gnome tweak tool to switch to this theme.
+
+Theme United
+------------
+    theme-united.sh
+
+Installs files necessary for the Gnome United theme. Use the gnome tweak tool to switch to this theme.
 
 Video
 -----
@@ -185,9 +217,9 @@ Installs utilities useful for working with video from official repositories and 
 * Openshot-qt - Non linear video editor.
 * Vokoscreen - Screen recorder.
 
-
 Virtual Box
 -----------
     vbox.sh
 
 Installs Oracle Virtual Box from the Virtual Box repository. After installing, you'll probably want to visit virtualbox.org and download the current extension pack.
+
