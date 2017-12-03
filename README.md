@@ -85,7 +85,7 @@ Docker
 ------
     docker.sh
 
-Installs docker-ce from the Docker repository. After running the script you might want to enable running docker as a non-root user. To do say run 'moduser -aG docker <username>' as root or with 'sudo'. You'll need to log out and back in for the change to take effect.
+Installs docker-ce from the Docker repository. After running the script you might want to enable running docker as a non-root user. To do so run 'moduser -aG docker <username>' as root or with 'sudo'. You'll need to log out and back in for the change to take effect. This will set up the edge channel rather than stable since Ubuntu 17.10 isn't supported by stable yet.
 
 
 Epson Print
