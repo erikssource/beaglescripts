@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#tested zesty
+#tested artful
 
 #setup
 echo "# Setting Up..."
@@ -10,7 +10,7 @@ echo "# Installing Keys..."
 
 #repo
 echo "# Setting up Repo..."
-curl -sL https://deb.nodesource.com/setup_6.x | bash -
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
 #install
 echo "# Installing Software..."
