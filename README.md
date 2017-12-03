@@ -151,7 +151,7 @@ Node JS
 -------
     node.sh
 
-Installs the current LTS version NodeJS from the Node repository. Currently this is version 6 and is due to change to version 8 in October 2017.
+Installs the current LTS version NodeJS from the Node repository. Currently this is version 8.x. 
 
 
 Optical
@@ -176,6 +176,12 @@ Samsung Print
     samsung-print.sh
 
 Installs drivers and support for Samsung printers. May not install the correct driver for older printers. The software comes from an external repository.
+
+Spotify
+-------
+    spotify.sh
+
+Installs the Spotify client.
 
 Theme Arc
 ---------
@@ -222,4 +228,10 @@ Virtual Box
     vbox.sh
 
 Installs Oracle Virtual Box from the Virtual Box repository. After installing, you'll probably want to visit virtualbox.org and download the current extension pack.
+
+Yarn
+----
+    yarn.sh
+
+Installs the yarn package manager for Javascript development.
 
