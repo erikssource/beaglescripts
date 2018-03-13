@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Installs Samsung Printer Drivers for Recent Samsung Printers
 #tested zesty
 
 #setup
