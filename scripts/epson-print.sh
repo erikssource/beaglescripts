@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Installs Epson Printer Drivers
 #tested zesty
 
 #setup
