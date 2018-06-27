@@ -15,7 +15,7 @@ apt-get update
 
 #install
 echo "# Installing Software..."
-apt-get -y install mp3gain aacgain lame flac wavpack audacity easytag soundconverter
+apt-get -y install mp3gain lame flac wavpack audacity easytag soundconverter
 
 #post
 echo "# Post Install Steps..."
